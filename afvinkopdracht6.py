@@ -37,8 +37,7 @@ def createHtml (gc_perc,sequence):
     html_file = open("afvink6.html", "w")
     gc_perc = str(gc_perc)
     html_file.write("Dit is het gevongen gc percentage: ")
-    html_file.write(gc_perc)
-    
+    html_file.write(gc_perc)    
     html_file.write("Dit is de gevongen sequentie: ")
     html_file.write(sequence)
     html_file.close()

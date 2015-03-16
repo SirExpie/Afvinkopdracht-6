@@ -1,11 +1,12 @@
+
 def main():
-    bestand = "C:\Users\Patrick\Afvinkopdracht-6\sequence.gb"
+    bestand = "sequence.gb"
     text = gettext(bestand)
     cds = getcds(text)
     gcPercentage(cds)
     print("GC percentage: ", gcPercentage(seq))
 
-def gettext():
+def gettext(bestand):
     read = False
     cds = ""
     for regel in bestand :

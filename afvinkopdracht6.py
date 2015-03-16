@@ -1,17 +1,17 @@
 def main():
-    file="C:\Users\Patrick\Afvinkopdracht-6\sequence.gb"
-    text = gettext(file)
+    bestand = "C:\Users\Patrick\Afvinkopdracht-6\sequence.gb"
+    text = gettext(bestand)
     cds = getcds(text)
     gcPercentage(cds)
     print("GC percentage: ", gcPercentage(seq))
 
-def gettext() :
+def gettext():
     read = False
     cds = ""
     for regel in bestand :
         bestand.readline()
         if "ORIGIN" in regel :
-            lijn = regel.replace(" ","").replace("CDS","").replace("\n","")
+            lijn = regel.replace(" ","").replace("ORIGIN","").replace("\n","")
             global begin
             global eind
             begin,eind = lijn.split("..")

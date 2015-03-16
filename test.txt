@@ -1,3 +1,3 @@
-<<<<<<< HEAD
+
 Hoooooi did it work?
->>>>>>> 71a0380eb1fff1104d37d770d6f5d2b2355de55b
+

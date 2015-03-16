@@ -1,15 +1,8 @@
-
 def main():
-<<<<<<< HEAD
-    bestand = "sequence.gb"
-    text = gettext(bestand)
-    cds = getcds(text)
-=======
     bestand = open("sequentie.gbk", "r")
     cds = gettext(bestand)
->>>>>>> f2852890ee6ea48ee8b40457dcc2f505e5ca1f93
-    gcPercentage(cds)
-    print("GC percentage: ", gcPercentage(cds))
+    gc_perc = gcPercentage(cds)
+    createHtml(gc_perc,cds)
 
 def gettext(bestand):
     read = False
@@ -17,7 +10,6 @@ def gettext(bestand):
     for regel in bestand :
         if "ORIGIN" in regel :
             lijn = regel.replace(" ","").replace("ORIGIN","").replace("\n","")
-            print ("test")
 ## met deze line haal je alle spaties, en niet relevante letters en cijfers uit het bestand ##
         regel = regel.replace(" ","").replace("0","").replace("1","").replace("2","").replace("3","").replace("4","").replace("5","").replace("6","").replace("7","").replace("8","").replace("9","").replace("\n","")
 
@@ -41,4 +33,12 @@ def gcPercentage (cds):
 
     return gc/len(cds)*100
 
+def createHtml (gc_perc,sequence):
+    html_file = open("afvink6.html", "w")
+    gc_perc = str(gc_perc)
+    html_file.write(gc_perc)
+    html_file.write(sequence)
+    html_file.close()
+    
+    
 main()

@@ -1,0 +1,81 @@
+LOCUS       AB021961                1429 bp    mRNA    linear   ROD 14-APR-2000
+DEFINITION  Mus musculus mutant p53 mRNA, complete cds.
+ACCESSION   AB021961
+VERSION     AB021961.1  GI:5421849
+KEYWORDS    P53.
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1
+  AUTHORS   Araki,R., Fukumura,R., Fujimori,A., Tatsumi,K. and Abe,M.
+  TITLE     Cell cycle in DNA-PKcs knock-out mice
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1429)
+  AUTHORS   Fujimori,A. and Abe,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-DEC-1998) Masumi Abe, National Institute of
+            Radiological Sciences, Dept. of Biology and Oncology; Anagawa
+            4-9-1, Inage-ku, Chiba, Chiba 263-8555, Japan
+            (E-mail:abemasum@uexs72.nirs.go.jp, Tel:043-206-3219,
+            Fax:043-251-4593)
+FEATURES             Location/Qualifiers
+     source          1..1429
+                     /organism="Mus musculus"
+                     /mol_type="mRNA"
+                     /strain="SCID"
+                     /db_xref="taxon:10090"
+                     /cell_line="SCGR-11"
+                     /cell_type="fibroblast"
+                     /note="SCGR-11 cell is a derivative of SC3T3 fibroblast
+                     cell line derived from scid (severe combined immune
+                     deficiency) mice."
+     gene            1..1429
+                     /gene="p53"
+     CDS             101..1273
+                     /gene="p53"
+                     /note="Amino acid no.191 leusine (L) in wild-type mouse
+                     P53 is substituted to arginine (R)."
+                     /codon_start=1
+                     /product="P53"
+                     /protein_id="BAA82344.1"
+                     /db_xref="GI:5421850"
+                     /translation="MTAMEESQSDISLELPLSQETFSGLWKLLPPEDILPSPHCMDDL
+                     LLPQDVEEFFEGPSEALRVSGAPAAQDPVTETPGPVAPAPATPWPLSSFVPSQKTYQG
+                     NYGFHLGFLQSGTAKSVMCTYSPPLNKLFCQLAKTCPVQLWVSATPPAGSRVRAMAIY
+                     KKSQHMTEVVRRCPHHERCSDGDGLAPPQHRIRVEGNLYPEYLEDRQTFRHSVVVPYE
+                     PPEAGSEYTTIHYKYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRDSFEVRVCACPG
+                     RDRRTEEENFRKKEVLCPELPPGSAKRALPTCTSASPPQKKKPLDGEYFTLKIRGRKR
+                     FEMFRELNEALELKDAHATEESGDSRAHSSYLKTKKGQSTSRHKKTMVKKVGPDSD"
+     variation       672
+                     /gene="p53"
+                     /note="t in wild-type mouse p53"
+                     /replace="t"
+ORIGIN      
+        1 ttcctggnct gtaggtagcg actacagtta gggggcacct agcattcagg ccctcatcct
+       61 cctccttccc agcagggtgt cacgcttctc cgaagactgg atgactgcca tggaggagtc
+      121 acagtcggat atcagcctcg agctccctct gagccaggag acattttcag gcttatggaa
+      181 actacttcct ccagaagata tcctgccatc acctcactgc atggacgatc tgttgctgcc
+      241 ccaggatgtt gaggagtttt ttgaaggccc aagtgaagcc ctccgagtgt caggagctcc
+      301 tgcagcacag gaccctgtca ccgagacccc tgggccagtg gcccctgccc cagccactcc
+      361 atggcccctg tcatcttttg tcccttctca aaaaacttac cagggcaact atggcttcca
+      421 cctgggcttc ctgcagtctg ggacagccaa gtctgttatg tgcacgtact ctcctcccct
+      481 caataagcta ttctgccagc tggcgaagac gtgccctgtg cagttgtggg tcagcgccac
+      541 acctccagct gggagccgtg tccgcgccat ggccatctac aagaagtcac agcacatgac
+      601 ggaggtcgtg agacgctgcc cccaccatga gcgctgctcc gatggtgatg gcctggctcc
+      661 tccccagcat cgtatccggg tggaaggaaa tttgtatccc gagtatctgg aagacaggca
+      721 gacttttcgc cacagcgtgg tggtacctta tgagccaccc gaggccggct ctgagtatac
+      781 caccatccac tacaagtaca tgtgtaatag ctcctgcatg gggggcatga accgccgacc
+      841 tatccttacc atcatcacac tggaagactc cagtgggaac cttctgggac gggacagctt
+      901 tgaggttcgt gtttgtgcct gccctgggag agaccgccgt acagaagaag aaaatttccg
+      961 caaaaaggaa gtcctttgcc ctgaactgcc cccagggagc gcaaagagag cgctgcccac
+     1021 ctgcacaagc gcctctcccc cgcaaaagaa aaaaccactt gatggagagt atttcaccct
+     1081 caagatccgc gggcgtaaac gcttcgagat gttccgggag ctgaatgagg ccttagagtt
+     1141 aaaggatgcc catgctacag aggagtctgg agacagcagg gctcactcca gctacctgaa
+     1201 gaccaagaag ggccagtcta cttcccgcca taaaaaaaca atggtcaaga aagtggggcc
+     1261 tgactcagac tgactgcctc tgcatcccgt ccccatcacc agcctccccc tctccttgct
+     1321 gtcttatgac ttcagggctg agacacaatc cccaggatcc actcanactg nctgcctntg
+     1381 natccngtcc ccatnaccan cctccccntn tccttgctgn nttatgact
+//
+

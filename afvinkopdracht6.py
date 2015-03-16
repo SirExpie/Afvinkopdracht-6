@@ -1,22 +1,23 @@
 
 def main():
+<<<<<<< HEAD
     bestand = "sequence.gb"
     text = gettext(bestand)
     cds = getcds(text)
+=======
+    bestand = open("sequentie.gbk", "r")
+    cds = gettext(bestand)
+>>>>>>> f2852890ee6ea48ee8b40457dcc2f505e5ca1f93
     gcPercentage(cds)
-    print("GC percentage: ", gcPercentage(seq))
+    print("GC percentage: ", gcPercentage(cds))
 
 def gettext(bestand):
     read = False
     cds = ""
     for regel in bestand :
-        bestand.readline()
         if "ORIGIN" in regel :
             lijn = regel.replace(" ","").replace("ORIGIN","").replace("\n","")
-            global begin
-            global eind
-            begin,eind = lijn.split("..")
-           
+            print ("test")
 ## met deze line haal je alle spaties, en niet relevante letters en cijfers uit het bestand ##
         regel = regel.replace(" ","").replace("0","").replace("1","").replace("2","").replace("3","").replace("4","").replace("5","").replace("6","").replace("7","").replace("8","").replace("9","").replace("\n","")
 
@@ -30,9 +31,6 @@ def gettext(bestand):
        
     return cds
 
-# deze functie zorgt ervoor dat je alleen de CDS krijgt
-def getcds(t):
-    return t[int(begin):int(eind)]   
 
 def gcPercentage (cds):
     gc = 0
@@ -43,3 +41,4 @@ def gcPercentage (cds):
 
     return gc/len(cds)*100
 
+main()

@@ -32,13 +32,14 @@ def gcPercentage (cds):
         gc += 1
 
     return gc/len(cds)*100
-
+    
 def createHtml (gc_perc,sequence):
     html_file = open("afvink6.html", "w")
     gc_perc = str(gc_perc)
-    html_file.write("Dit is het gevonden gc percentage: /n")
-    html_file.write(gc_perc)
-    html_file.write("Dit is de gevonden sequentie: /n")
+    html_file.write("Afvinkopdracht 6 <p>" )
+    html_file.write("Dit is het gevonden gc percentage: <br>")
+    html_file.write(gc_perc + "% <br>")
+    html_file.write("Dit is de gevonden sequentie: <br>")
     html_file.write(sequence)
     html_file.close()
     
